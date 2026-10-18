@@ -11,7 +11,7 @@ I set up the original pipeline and wrote most of the code for a collaborative pr
 I built the data pipeline, handled LightGBM modeling, and ran OLS analyses using rental listings alongside simulated platform behavior. The current project separates observed asking-rent prediction from generated platform outcomes and evaluates rent predictions across held-out city/state groups. A later revision of the repository is separate from the work presented at the 2025 conference and does not validate its results. My collaborator contributed the initial model, mathematics, and SHAP analysis. We co-presented a poster at Stanford's 2025 SC2 Student Conference.
 
 ### [Virus Vanquisher](https://github.com/Snet101/virus-vanquisher)
-A three-person TSA game built with Godot and GDScript. My contribution was the intro scene, including TV effects, character animation, overlays, and the transition into Level 1. I also reviewed gameplay states, reload behavior, collisions, damage timing, and level overlays.
+A three-person TSA game built with Godot and GDScript. My contribution was the intro scene, including TV effects, character animation, overlays, and the transition into Level 1. I also fixed gameplay states, reload behavior, collisions, damage timing, and level overlays.
 
 ### [Bernstein-Vazirani with Qiskit](https://github.com/Snet101/bernstein-vazirani-qiskit)
 An educational notebook demonstrating oracle construction, circuit simulation, and hidden-string recovery. Placed fourth in the FLIQ Hackathon Education Track. The implementation runs on a simulator, not quantum hardware.
