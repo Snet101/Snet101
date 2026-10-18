@@ -1,48 +1,30 @@
-# Hi, I'm Sanvi
+## Hi, I'm Sanvi
 
-I'm a high school student interested in software engineering, machine learning, data science, and quantum computing.
-
-I like building projects that combine technical implementation with real-world questions — from auditing LLM citation hallucinations to analyzing digital housing platforms and building interactive games in Godot.
+I'm a high school student interested in software engineering, machine learning, business, and quantum computing. I like taking questions from everyday life and turning them into projects I can build, test, and explain.
 
 ## Featured Projects
 
-### Citation Hallucination Audit
-Built a reproducible TinyLlama evaluation pipeline using regex-based citation detection, MiniLM embeddings, FAISS retrieval, and post-hoc RAG correction.
+### [CitationHAL](https://github.com/Snet101/citation-hallucination-audit)
+I set up the original pipeline and wrote most of the code for a collaborative project exploring citations in TinyLlama outputs. It connects citation extraction, MiniLM embeddings, FAISS retrieval, and correction attempts. The revised pipeline preserves unresolved cases and failed corrections without treating retrieval similarity as factual verification.
 
-### Digital Platform Competition and Rental Outcomes
-Developed a Python, LightGBM, SHAP, and econometric analysis of simulated digital-platform competition in rental markets. Presented at Stanford SC².
+### [Housing Analysis](https://github.com/Snet101/digital-housing-platform-analysis)
+I built the data pipeline, handled LightGBM modeling, and ran OLS analyses using rental listings alongside simulated platform behavior. The current project separates observed asking-rent prediction from generated platform outcomes and evaluates rent predictions across held-out city/state groups. My collaborator contributed the initial model, mathematics, and SHAP analysis. We co-presented a poster at Stanford's 2025 SC2 Student Conference.
 
-### Tourism and 311 Service Burden Analysis
-Analyzed Google Trends and municipal 311 data across Boston, Seattle, and Washington, DC using Python, time-series analysis, and correlation methods.
+### [Virus Vanquisher](https://github.com/Snet101/virus-vanquisher)
+A three-person TSA game built with Godot and GDScript. My contribution was the intro scene, including TV effects, character animation, overlays, and the transition into Level 1. I also reviewed gameplay states, reload behavior, collisions, damage timing, and level overlays.
 
-### Virus Vanquisher
-Collaboratively developed a multi-level Godot game using GDScript with player combat, enemies, projectiles, collectibles, and custom assets.
+### [Bernstein-Vazirani with Qiskit](https://github.com/Snet101/bernstein-vazirani-qiskit)
+An educational notebook demonstrating oracle construction, circuit simulation, and hidden-string recovery. Placed fourth in the FLIQ Hackathon Education Track. The implementation runs on a simulator, not quantum hardware.
 
-### Bernstein–Vazirani with Qiskit
-Implemented and simulated the Bernstein–Vazirani quantum algorithm using Qiskit.
+### [Tourism and 311 Data Analysis](https://github.com/Snet101/tourism-311-data-analysis)
+A collaborative exploratory project involving tourism-interest and municipal 311 data for Boston, Seattle, and Washington, DC. The repository documents the workflow and data limitations; historical correlations remain unreproduced and do not establish that tourists caused service requests.
 
-## Technologies
+## Tools I Use
 
-Python • Java • GDScript • Qiskit • pandas • NumPy • scikit-learn • LightGBM • SHAP • FAISS • Hugging Face • Jupyter • Git
+Python, Java, GDScript, HTML/CSS, Git/GitHub, Jupyter, Qiskit, Godot, pandas, NumPy, scikit-learn, LightGBM, Hugging Face Transformers, MiniLM, and FAISS.
 
 ## Currently Exploring
 
-- software engineering
-- machine learning systems
-- quantum machine learning
-- data-driven product development
-
-<!--
-**Snet101/Snet101** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Planning StrikePact, a wearable and app concept for student accountability. The app has not been built yet.
+- Learning how to evaluate ML systems beyond a single overall score.
+- Quantum computing and how software decisions affect whether a product is useful.
